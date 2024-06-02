@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKDU Prep School - Final Grade Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1 id="headerText">Final Grade & Minimum Pass Grade<br>Calculator</h1>
+  </header>
+  <main>
+    <form>
+      <!-- TERM 1 -->
+      <div class="blockElement">
+        <section id="term1">
+          <h2 id="temr1text">
+            TERM 1
+          </h2>
+          <div class="part">
+            <!-- POP 1 -->
+            <label for="pop1-1">Pop 1:</label>
+            <input type="text" required id="pop1-1" name="pop1-1" class="twoPfive">
+            <!-- POP 2 -->
+            <label for="pop1-2">Pop 2:</label>
+            <input type="text" required id="pop1-2" name="pop1-2" class="twoPfive">
+            <!-- POP 3 -->
+            <label for="pop1-3">Pop 3:</label>
+            <input type="text" required id="pop1-3" name="pop1-3" class="twoPfive">
+            <!-- POP 4 -->
+            <label for="pop1-4">Pop 4:</label>
+            <input type="text" required id="pop1-4" name="pop1-4" class="twoPfive">
+          </div>
+          <div class="part">
+            <!-- IN-CLASS -->
+            <label for="inClass1">In-Class Spoken Assest:</label>
+            <input type="text" required id="inClass1" name="inClass1" class="ten">
+            <!-- PRESENTATION -->
+            <label for="presentation1">Presentation:</label>
+            <input type="text" required id="presentation1" name="presentation1" class="ten">
+            <!-- ONLINE HOMEWORK -->
+            <label for="online1">Online Homework:</label>
+            <input type="text" required id="online1" name="online1" class="ten">
+          </div>
+          <div class="part">
+            <!-- READING -->
+            <label for="reading1">Reading:</label>
+            <input type="text" required id="reading1" name="reading1"  class="five">
+            <!-- WRITING -->
+            <label for="writing1">Writing:</label>
+            <input type="text" required id="writing1" name="writing1"  class="five">
+            <!-- LISTENING -->
+            <label for="listening1">Listening:</label>
+            <input type="text" required id="listening1" name="listening1"  class="five">
+            <!-- SPEAKING -->
+            <label for="speaking1">Speaking:</label>
+            <input type="text" required id="speaking1" name="speaking1"  class="five">
+          </div>
+          <div class="part">
+            <!-- MIDTERM -->
+            <label for="midterm1">Midterm:</label>
+            <input type="text" required id="midterm1" name="midterm1"  class="fifteen">
+            <!-- MODULE TEST -->
+            <label for="moduleTest">Module Test:</label>
+            <input type="text" required id="moduleTest" name="moduleTest" class="twentyFive">
+          </div>
+        </section>
+        <!-- TERM 2 -->
+        <section id="term2">
+          <h2 id="temr2text">
+            TERM 2
+          </h2>
+          <div class="part">
+            <!-- POP 1 -->
+            <label for="pop2-1">Pop 1:</label>
+            <input type="text" required id="pop2-1" name="pop2-1" class="twoPfive">
+            <!-- POP 2 -->
+            <label for="pop2-2">Pop 2:</label>
+            <input type="text" required id="pop2-2" name="pop2-2" class="twoPfive">
+            <!-- POP 3 -->
+            <label for="pop2-3">Pop 3:</label>
+            <input type="text" required id="pop2-3" name="pop2-3" class="twoPfive">
+            <!-- POP 4 -->
+            <label for="pop2-4">Pop 4:</label>
+            <input type="text" required id="pop2-4" name="pop2-4" class="twoPfive">
+          </div>
+          <div class="part">
+            <!-- IN-CLASS -->
+            <label for="inClass2">In-Class Spoken Assest:</label>
+            <input type="text" required id="inClass2" name="inClass2" class="ten">
+            <!-- PRESENTATION -->
+            <label for="presentation2">Presentation:</label>
+            <input type="text" required id="presentation2" name="presentation2" class="ten">
+            <!-- ONLINE HOMEWORK -->
+            <label for="online2">Online Homework:</label>
+            <input type="text" required id="online2" name="online2" class="ten">
+          </div>
+          <div class="part">
+            <!-- READING -->
+            <label for="reading2">Reading:</label>
+            <input type="text" required id="reading2" name="reading2" class="five">
+            <!-- WRITING -->
+            <label for="writing2">Writing:</label>
+            <input type="text" required id="writing2" name="writing2" class="five">
+            <!-- LISTENING -->
+            <label for="listening2">Listening:</label>
+            <input type="text" required id="listening2" name="listening2" class="five">
+            <!-- SPEAKING -->
+            <label for="speaking2">Speaking:</label>
+            <input type="text" required id="speaking2" name="speaking2" class="five">
+          </div>
+          <div class="part">
+            <!-- MIDTERM 2.1 -->
+            <label for="midterm2.1">Midterm 1:</label>
+            <input type="text" required id="midterm2.1" name="midterm2"   class="midtermScndTerm">
+            <!-- MIDTERM 2.2 -->
+            <label for="moduleTest">Midterm 2:</label>
+            <input type="text" required id="midterm2.2" name="midterm2.2" class="midtermScndTerm">
+          </div>
+        </section>
+      </div>
+      <!-- FINAL EXAM -->
+      <section id="final">
+        <h2 id="finalExamText">Final Exam</h2>
+        <!-- FINAL EXAM -->
+        <label for="finalExam">Final Exam:</label>
+        <input type="text" required name="finalExam" id="finalExam" class="fourty">
+      </section>
+      <button type="submit" id="submitBtn">SUBMIT</button>
+    </form>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
